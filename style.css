@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    /* Kiểu thiết lập cho phần nội dung trang web */
+    height: 1500px; /* Ví dụ: chiều cao nội dung trang web */
+    background-color: #f0f0f0; /* Màu nền của nội dung trang web */
+}
+
+.bottom-image {
+    position: fixed;
+    bottom: 0;
+    left: 100%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-height: 10000px;
+    margin-bottom: 20px; /* Đặt lề phía dưới bằng 20px */
+    transition: transform 0.3s ease;
+}
+
+.bottom-image:hover {
+    transform: scale(1.1);
+}
